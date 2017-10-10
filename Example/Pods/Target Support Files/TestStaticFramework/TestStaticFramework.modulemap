@@ -1,0 +1,6 @@
+framework module TestStaticFramework {
+  umbrella header "TestStaticFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - TestStaticFramework (0.1.0)
+
+DEPENDENCIES:
+  - TestStaticFramework (from `../`)
+
+EXTERNAL SOURCES:
+  TestStaticFramework:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TestStaticFramework: 87683bbe54a2faf702f2f2cd67cd041bbe48a445
+
+PODFILE CHECKSUM: 5299529c1388501b969da4c2f42cb32d73d81bd9
+
+COCOAPODS: 1.4.0.beta.1
