@@ -1,5 +1,13 @@
 PODS:
-  - TestStaticFramework (0.1.0)
+  - GoogleMaps (2.4.0):
+    - GoogleMaps/Maps (= 2.4.0)
+  - GoogleMaps/Base (2.4.0)
+  - GoogleMaps/Maps (2.4.0):
+    - GoogleMaps/Base
+  - Kingfisher (3.13.1)
+  - TestStaticFramework (0.1.0):
+    - GoogleMaps
+    - Kingfisher (~> 3.13.1)
 
 DEPENDENCIES:
   - TestStaticFramework (from `../`)
@@ -9,7 +17,9 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  TestStaticFramework: 87683bbe54a2faf702f2f2cd67cd041bbe48a445
+  GoogleMaps: 8436ab5d1c25e36915b2f7416d0c8e3fa2e76c61
+  Kingfisher: ed9707a409cc47fddafbcd12a43a9757e3600af5
+  TestStaticFramework: dd328a365b6a77865c0dd0e93ba042174540b991
 
 PODFILE CHECKSUM: 5299529c1388501b969da4c2f42cb32d73d81bd9
 

@@ -16,7 +16,16 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
-  "source_files": "TestStaticFramework/Classes/**/*"
+  "source_files": "TestStaticFramework/Classes/**/*",
+  "static_framework": true,
+  "dependencies": {
+    "Kingfisher": [
+      "~> 3.13.1"
+    ],
+    "GoogleMaps": [
+
+    ]
+  }
 }
